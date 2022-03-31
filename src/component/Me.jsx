@@ -16,7 +16,7 @@ export default function Me(){
     </Accordion.Body>
   </Accordion.Item>
   <Accordion.Item eventKey="1">
-    <Accordion.Header><h3>technologies that I use</h3></Accordion.Header>
+    <Accordion.Header><h3>Technologies that I use</h3></Accordion.Header>
     <Accordion.Body>
         <ul className={style.ul}>
             <li>HTML</li>
