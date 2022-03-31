@@ -14,7 +14,8 @@ const [city, setCity] = useState('');
       <div className={style.search}>
 
       <input
-        className={style.input} type="text"
+        className={style.input} 
+        type="text"
         placeholder="City..."
         value={city}
         onChange={e=>setCity(e.target.value)}
