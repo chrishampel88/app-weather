@@ -1,9 +1,9 @@
 import React from "react";
 import { Routes, Route } from "react-router-dom";
-import Contact from "./components/Contact";
-import Home from './components/Home'
-import Me from "./components/Me";
-import NavBar from "./components/Navbar";
+import Contact from "./component/Contact";
+import Home from './component/Home'
+import Me from "./component/Me";
+import NavBar from "./component/Navbar";
 
 export default function App(){
   return(
