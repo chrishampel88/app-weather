@@ -10,6 +10,7 @@ function App() {
   const [cities, setCities]=useState([]) //creo el useState para guardarme el estado de las ciudades
   
 function onSearch(city){
+try{
 
   fetch(`http://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${API_KEY}&units=metric`)//recivo datos de la API
   .then(resp=>resp.json())// la paso a formato JSON
@@ -31,6 +32,9 @@ function onSearch(city){
       setCities(state => [...state, ciudad])// oldCities es el arreglo vacio, al usar ... oldCities, ciudad => al arreglo  oldCities le agrego la ciudad buscada
     }
   })
+    }catch(err){
+    console.log(err);
+  }
 }
 function onClose(id){
   setCities(state => state.filter(city => city.id !== id))// filtro negando la igualdad, => mostrame todos menos el que coincida con el id
