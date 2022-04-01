@@ -21,7 +21,6 @@ function onSearch(city){
       const ciudad={
         id: recurso.id,
         name: recurso.name,
-        temp:Math.floor(recurso.main.temp),
         min: Math.floor(recurso.main.temp_min),
         max: Math.floor(recurso.main.temp_max),
         humidity:recurso.main.humidity,
