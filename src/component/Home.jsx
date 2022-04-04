@@ -48,7 +48,7 @@ function onClose(id){
 For this app I use the following technologies: HTML, CSS, JavaScript, Bootstrap and React.
 I hope you like them!</h5>
             </div>
-          <br/><br />
+          <br/>
           <h1 className={style.title}>Search a city</h1>
           <br /><br />
           <SearchBar 
