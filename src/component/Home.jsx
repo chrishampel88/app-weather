@@ -3,7 +3,8 @@ import SearchBar from './SearchBar';
 import Cards from './Cards';
 import style from './Home.module.css'
 
-//const API_KEY = process.env.REACT_APP_API_KEY;
+
+const API_KEY = process.env.REACT_APP_API_KEY;
 
 function App() {
 
@@ -12,7 +13,7 @@ function App() {
 function onSearch(city){
 try{
 
-  fetch(`https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=b0010818425705f55e28c0b5e0231091&units=metric`)//recivo datos de la API
+  fetch(`https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${API_KEY}&units=metric`)//recivo datos de la API
   .then(resp=>resp.json())// la paso a formato JSON
   .then((recurso)=>{
     if(recurso.cod==='404'){
