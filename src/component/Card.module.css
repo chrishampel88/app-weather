@@ -17,8 +17,9 @@
     margin-top: 0;
     margin-bottom: 0;
 }
-.btn{ 
-    
+.btn{
+    display: flex;
+    justify-content: left;
     margin-top: 3px;
     margin-left: 90%;
     border-radius: 5px;
@@ -33,4 +34,12 @@
     margin-left: auto;
     margin-right: auto;
     text-align: center;
+}
+
+@media all and (max-width:  400px){
+
+    .card{
+        margin: 20px 0;
+    }
+
 }
