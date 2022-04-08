@@ -21,7 +21,7 @@ try{
     else{
       const ciudad={
         id: recurso.id,
-        temp: recurso.main.temp,
+        temp: Math.floor(recurso.main.temp),
         name: recurso.name,
         min: Math.floor(recurso.main.temp_min),
         max: Math.floor(recurso.main.temp_max),
