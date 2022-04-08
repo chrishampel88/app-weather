@@ -1,6 +1,6 @@
 import {Navbar, Nav, Container} from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
-import './styles/Navbar.css'
+import '../styles/Navbar.css'
 
 export default function NavBar(){
 
