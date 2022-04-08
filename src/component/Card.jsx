@@ -1,7 +1,7 @@
 import React from 'react';
 import style from'./Card.module.css' 
 
-export default function Card({name,max,min,img,onClose,id, temp}) {
+export default function Card({name,max,min,img,onClose,id, temp, country}) {
    
     return(
         <div className={style.card}>
@@ -10,7 +10,7 @@ export default function Card({name,max,min,img,onClose,id, temp}) {
             </div>
             
             <div className={style.uno}>
-                <h1 className={style.h1}>{name}</h1 >        
+                <h1 className={style.h1}>{name}({country})</h1 >        
                 <br />   
                 <h3>Temp: {temp}°c </h3>     
             </div>
