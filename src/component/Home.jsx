@@ -21,6 +21,7 @@ try{
     else{
       const ciudad={
         id: recurso.id,
+        country:recurso.sys.country,
         temp: Math.floor(recurso.main.temp),
         name: recurso.name,
         min: Math.floor(recurso.main.temp_min),

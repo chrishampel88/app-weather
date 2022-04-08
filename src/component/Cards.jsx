@@ -16,7 +16,7 @@ return (
                 img={c.img}
                 id={c.id}
                 temp={c.temp}
-                time={c.timezone}
+                country={c.country}
                 onClose={onClose}/>
                 )}
     </div>
