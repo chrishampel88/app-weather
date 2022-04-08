@@ -20,6 +20,7 @@ try{
     }
     else{
       const ciudad={
+        
         id: recurso.id,
         country:recurso.sys.country,
         temp: Math.floor(recurso.main.temp),
