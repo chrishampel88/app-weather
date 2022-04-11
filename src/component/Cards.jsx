@@ -1,6 +1,6 @@
 import React from 'react';
 import Card from './Card.jsx';
-import style from './Cards.module.css';
+import style from '../styles/Cards.module.css';
 
 export default function Cards({cities, onClose}){
     if(cities){

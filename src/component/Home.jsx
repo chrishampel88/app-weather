@@ -1,7 +1,7 @@
 import React,{ useState } from 'react';
 import SearchBar from './SearchBar';
 import Cards from './Cards';
-import style from './Home.module.css'
+import style from '../styles/Home.module.css'
 
 //const API_KEY = process.env.REACT_APP_API_KEY;
 

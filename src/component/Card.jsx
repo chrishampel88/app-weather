@@ -1,5 +1,5 @@
 import React from 'react';
-import style from'./Card.module.css' 
+import style from'../styles/Card.module.css' 
 
 export default function Card({name,max,min,img,onClose,id, temp, country}) {
    
