@@ -1,7 +1,7 @@
 import React,{ useState } from 'react';
 import SearchBar from './SearchBar';
 import Cards from './Cards';
-import style from './Home.module.css'
+import style from '../styles/Home.module.css'
 
 //const API_KEY = process.env.REACT_APP_API_KEY;
 
@@ -52,7 +52,9 @@ For this app I use the following technologies: HTML, CSS, JavaScript, Bootstrap 
 I hope you like them!</h5>
             </div>
           <br/>
-          <h1 className={style.title}>Search a city</h1>
+          <div className="title-container">
+            <h1 className={style.title}>Introduce your city</h1>
+          </div>
           <br /><br />
           <SearchBar 
             onSearch={onSearch}/>

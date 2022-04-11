@@ -1,4 +1,4 @@
-import style from './Me.module.css'
+import style from '../styles/Me.module.css'
 import {Accordion} from "react-bootstrap";
 
 export default function Me(){
