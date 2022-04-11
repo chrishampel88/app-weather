@@ -1,7 +1,37 @@
+#searchContainer{
+    margin: 0 auto;
+    max-width: 300px;
+    height: 30px;
+}
 .input{
-font-size: 20px;
-color: rgb(255, 255, 255);
-background-color: rgb(2, 57, 138);
+    font-size: 20px;
+    color: #f5f5f5;
+    background-color: rgba(0,0,0,.4);
+}
+.input::placeholder {
+    color: #f7f7f7;
+} 
+
+.input:focus {
+    outline: none;
+} 
+
+#inputSearch {
+    width: 90%;
+    border: 0;
+}
+
+#inputSendData {
+    width: 10%;
+    align-items: center;
+    border: 0;
+    color: #000;
+}
+#inputSendData img {
+    margin-top: -.2rem;
+    height: 100%;
+    width: 20px;
+    height: 100%;
 }
 .button{
     font-size: 20px;
