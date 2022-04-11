@@ -52,7 +52,9 @@ For this app I use the following technologies: HTML, CSS, JavaScript, Bootstrap 
 I hope you like them!</h5>
             </div>
           <br/>
-          <h1 className={style.title}>Search a city</h1>
+          <div className="title-container">
+            <h1 className={style.title}>Introduce your city</h1>
+          </div>
           <br /><br />
           <SearchBar 
             onSearch={onSearch}/>
