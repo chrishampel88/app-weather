@@ -48,12 +48,12 @@ function onClose(id){
       <div>
          <div className={style.divTitle} >
                 <h5 >This is my first app, where we can search for one or several cities by name and see their weather conditions.
-For this app I use the following technologies: HTML, CSS, JavaScript, Bootstrap and React.
-I hope you like them!</h5>
+                     For this app I use the following technologies: HTML, CSS, JavaScript, Bootstrap and React.
+                     I hope you like them!</h5>
             </div>
           <br/>
           <div className="title-container">
-            <h1 className={style.title}>Introduce your city?????</h1>
+            <h1 className={style.title}>Introduce your city</h1>
           </div>
           <br /><br />
           <SearchBar 
