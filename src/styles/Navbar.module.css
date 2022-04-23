@@ -1,24 +1,24 @@
-.nav-container {
+.navContainer {
 	display: flex;
 	justify-content: space-between;
 }
-.nav-container .nav-title{
+.navContainer .navTitle{
 	font-size: 1.5rem;
 }
-.me-auto{
+.meAuto{
 	margin: 0 !important;
 }
 
 @media all and (max-width: 800px){
 
-	.nav-container{
+	.navContainer{
 		display: flex;
 		flex-direction: column;
 		justify-content: center;
 		width: 100%;
 	}
 
-	.nav-container .navbar-nav{
+	.navContainer .navbar-nav{
 		display: flex;
 		justify-content: center;
 		width: 100%;
